@@ -1,0 +1,47 @@
+# StrongEd$Mode=Message
+_TaskName:BCache
+VERS:2.02 (2005-03-13)
+# Obey file error messages
+ON:On
+IW:IW
+W:W
+OFF:Off
+DESCRIPTION:Alters the state of the CPU cache
+RO:BCache needs RISC OS 3 or later.
+TASKEXIST:You can only have one copy of BCache running at once.
+NESTED:BCache requires the Nested Window Manager. This can be obtained by downloading the Universal Boot sequence from http://acorn.riscos.com/
+MODCLIB:You need the SharedCLibrary to run BCache. 
+MODTB:You need 'Toolbox' module (v1.71) to run BCache.
+MODCM:You need the 'ColourMenu' module (v0.24) to run BCache.
+MODCD:You need the 'ColourDBox' module (v0.23) to run BCache.
+MODDCS:You need the 'DCS' module (v1.16) to run BCache.
+MODFI:You need the 'FileInfo' module (v0.22) to run BCache.
+MODFB:You need the 'FontDBox' module (v0.22) to run BCache.
+MODFM:You need the 'FontMenu' module (v0.27) to run BCache.
+MODIB:You need the 'IconBar' module (v1.22) to run BCache.
+MODMU:You need the 'Menu' module (v0.40) to run BCache.
+MODPT:You need the 'PrintDBox' module (v0.20) to run BCache.
+MODPI:You need the 'ProgInfo' module (v0.20) to run BCache.
+MODSAVE:You need the 'SaveAs' module (v0.22) to run BCache.
+MODSC:You need the 'Scale' module (v0.19) to run BCache.
+MODWD:You need the 'Window' module (v1.79) to run BCache.
+MODTA:You need the 'ToolAction' module (v0.23) to run BCache.
+MODTG:You need the 'TextGadgets' module (v0.49) to run BCache.
+MODURI:You need the 'URI' module to run BCache.
+MODTW:You need the taskwindow module to run BCache.
+# Error messages
+UNTRAPPED:Untrapped exception. %0
+BUGZQUERY:Error answering a query from Bugz. %0
+BUGZCREATE:Error creating Bugz report. %0
+NOBUGZ:Please locate the Bugz application. %0
+TOOLBOXERROR:Error processing Toolbox Error. %0
+HOMEPAGE:Error viewing Homepage. %0
+SENDEMAIL:Error sending E-Mail. %0
+MQUIT:Error receiving 'Quit' Message. %0
+TQUIT:Error receiving Toolbox 'Quit' Message. %0
+VIEWMANUAL:Error opening Manual. %0
+VIEWIHELP:Error running starting interactive help. %0
+VIEWCHAPTER:Error opening chapter in manual. %0
+BUTTONCLICKED:Error handling button click. %0
+#
+POSSAVE:Error saving window position. %0

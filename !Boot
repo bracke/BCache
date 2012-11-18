@@ -1,0 +1,12 @@
+Run <Obey$Dir>.Resources.ResFind BCache
+|
+Set BCache$Help BCacheRes:BCache
+Set BCache$Version "2.02"
+Set BCache$Web "http://www.arcsite.de/hp/bracke/"
+Set BCache$Title "BCache"
+Set BCache$Publisher "Bent Bracke"
+Set BCache$Description "Alters the state of the CPU cache."
+Run <BCache$Dir>.Resources.ReadToken BCacheRes:Messages DESCRIPTION
+do Set BCache$Description <ReadToken$Value>
+|
+Iconsprites <BCache$Dir>.!Sprites
